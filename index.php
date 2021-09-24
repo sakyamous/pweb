@@ -42,7 +42,14 @@
 		$row=mysqli_fetch_assoc($hasil);
 		if (mysqli_affected_rows($koneksi)>0){
 			$_SESSION['username']=$username;
-			header("location:homeadmin.php");
+			//cek login user
+			if(substr($username,0,3) == "A12"){
+				header("location:homemhs.php");
+			}else if(substr($username,0,3) == "dsn"){
+				header("location:homedosen.php");
+			}else if(substr($username,0,5) == "admin"){
+				header("location:homeadmin.php");
+			}
 		}else{
 			echo "<div class='alert alert-danger w-25 mx-auto text-center mt-1 alert-dismissible'>
 			<button type='button' class='close' data-dismiss='alert'>&times;</button>

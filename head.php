@@ -1,3 +1,4 @@
+
 <div class="menusamping">
 	<h1>SIA Administrator</h1>
 	<a href="homeadmin.php">Home</a>
@@ -7,4 +8,3 @@
 	<a href="updateTawar.php">Kuliah Tawar</a>
 	<a href="logout.php">Logout1</a>
 </div>
-  

@@ -23,7 +23,7 @@ if (!isset($_SESSION['username'])){
 ?>
 <div class="utama">
 	<br><br>
-	<h1 class="text-center">Selamat Datang di Halaman Administrator</h1>
+	<h1 class="text-center">Selamat Datang di Halaman Mahasiswa</h1>
 </div>
 </body>
 </html>	

@@ -12,7 +12,7 @@
 <body>
 	<?php
 	require "fungsi.php";
-	require "head.html";
+	require "head.php";
 	$id=$_GET['kode'];
 	$sql="select * from mhs where id='$id'";
 	$qry=mysqli_query($koneksi,$sql);

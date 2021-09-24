@@ -12,7 +12,7 @@
 </head>
 <body>
 	<?php
-	require "head.html";
+	require "head.php";
 	?>
 	<div class="utama">		
 		<br><br><br>		

@@ -30,7 +30,7 @@
 
 //memanggil file berisi fungsi2 yang sering dipakai
 require "fungsi.php";
-require "head.html";
+require "head.php";
 
 /*	---- cetak data per halaman ---------	*/
 

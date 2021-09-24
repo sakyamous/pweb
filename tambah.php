@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php
-	require "head.html";
+	require "head.php";
 	?>
 	<div class="container">
 		<h2>TAMBAH DATA MAHASISWA</h2>	

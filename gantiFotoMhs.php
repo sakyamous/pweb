@@ -21,7 +21,7 @@
 	$row=mysqli_fetch_assoc($hasil);
 	
 	//panggil file layout header
-	require "head.html";
+	require "head.php";
 	?>
 	<div class="utama">
 		<h2 class="mb-5 text-center">GANTI FOTO MAHASISWA</h2>	
