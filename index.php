@@ -44,8 +44,8 @@
 			$_SESSION['username']=$username;
 			//cek login user
 			if(substr($username,0,3) == "A12"){
-				header("location:homemhs.php");
-			}else if(substr($username,0,3) == "dsn"){
+				header("location:homedosen.php");
+			}else if(substr($username,0,4) == "0686"){
 				header("location:homedosen.php");
 			}else if(substr($username,0,5) == "admin"){
 				header("location:homeadmin.php");
