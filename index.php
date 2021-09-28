@@ -37,10 +37,10 @@
 		require "fungsi.php";
 		$username=$_POST['username'];
 		$passw=md5($_POST['passw']);
-		$sql="select * from user where username='$username' and password='$passw'";
+		$sql="SELECT * FROM user WHERE username='$username' and password='$passw'";
 		$hasil=mysqli_query($koneksi,$sql) or die(mysqli_error($koneksi));
 		$row=mysqli_fetch_assoc($hasil);
-		if (mysqli_affected_rows($koneksi)>0){
+		if (mysqli_affected_rows($koneksi)>0){<?= $; ?>
 			$_SESSION['username']=$username;
 			//cek login user
 			if(substr($username,0,3) == "A12"){
